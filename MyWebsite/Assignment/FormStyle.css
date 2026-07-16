@@ -1,0 +1,98 @@
+h1{
+    /* background: linear-gradient(to right, rgb(145, 99, 0), rgb(255, 213, 108)); */
+    text-shadow: 3px 0px 0px black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(../Images/CIty\ Evening.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 1px 0px 0px black;
+    font-weight: 500;
+}
+
+.Container ::placeholder{
+    color: white;
+}
+
+.Container input{
+    background: transparent;
+    border: none;
+    border: 1.5px solid rgba(255, 255, 255);
+    color: white;
+}
+
+.FirstName input{
+    width: 50%;
+    border-radius: 50px;
+    padding: 1%;
+    width: 300px;
+    font-size: medium;
+}
+
+.LastName input{
+    width: 50%;
+    border-radius: 50px;
+    padding: 1%;
+    font-size: medium;
+}
+
+.Email input{
+    width: 50%;
+    border-radius: 50px;
+    padding: 1%;
+    font-size: medium;
+}
+
+.Password input{
+    width: 50%;
+    border-radius: 50px;
+    padding: 1%;
+    font-size: medium;
+}
+
+.Phone input{
+    width: 50%;
+    border-radius: 50px;
+    padding: 1%;
+    font-size: medium;
+}
+
+.StateOfOrigin select{
+    width: 40%;
+    border-radius: 50px;
+    padding: 1%;
+    font-size: medium;
+}
+
+.Comment input{
+    width: 90%;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: medium;
+}
+
+.SubmitBtn button{
+    width: 50%;
+    border-radius: 50px;
+    padding: 3%;
+}
+
+.ResetBtn button{
+    width: 50%;
+    border-radius: 50px;
+    padding: 3%;
+}
+
+.SubmitBtn :hover{
+    background-color: rgb(212, 212, 212);
+}
+
+.ResetBtn :hover{
+    background-color: rgb(212, 212, 212);
+}

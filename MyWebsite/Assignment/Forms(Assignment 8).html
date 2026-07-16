@@ -4,44 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <link rel="stylesheet" href="FormStyle.css">
 </head>
 <body>
+<div class="Container">
     <!-- Registration Form -->
-      <h2>Registration Form</h2>
+      <h1>Registration Form</h1>
      <form>
 
         <!-- Full Name -->
 
-        <label for="name">Full Name:</label>
+    <div class="FirstName">
+        <label for="name">First Name:</label>
             <input type="text"
                 id="name" 
                 name="name"
-                placeholder="Enter your full name">
-        <br><br>
+                placeholder="Enter your first name"><br><br>
+    </div>
+
+    <div class="LastName">
+        <label for="name">Last Name:</label>
+            <input type="text"
+                id="name" 
+                name="name"
+                placeholder="Enter your last name">
+    
+    </div>
+        <br>
 
         <!-- Email -->
-
+        
+    <div class="Email">
         <label for="email">Email:</label>
             <input type="email"
                 id="email"
                 name="email"
                 placeholder="example@gmail.com">
-        <br><br>
+    </div>
+        <br>
 
         <!-- Passowrd -->
 
+    <div class="Password">
         <label for="password">Password:</label>
             <input type="password"
                 id="password"
                 name="password"
-                placeholder="Enter Password"><br><br>
+                placeholder="Enter Password"
+                pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*].{8,})"
+                title="Password must have:
+                -at least 8 characters,
+                -an uppercase letter,
+                -a lowercase letter, 
+                -a number, 
+                -and a specail character (!@#$%^&*)."><br><br>
+    </div>
 
         <!-- Phone No. -->
 
+    <div class="Phone">
         <label for="phone">Phone Number:</label>
             <input type="tel"
                 id="phone"
-                placeholder="Enter Phone No."><br><br>
+                placeholder="Enter Phone No. (Optional)"><br><br>
+    </div>
 
         <!-- Gender Selection -->
 
@@ -52,11 +78,12 @@
         <label for="Female"> Female:</label>
             <input type="radio"
                 id="Female"
-                name="Gender"><br><br>
+                name="Gender">
+    <br><br>
 
         <!-- State Of Origin -->
 
-
+    <div class="StateOfOrigin">
         <label for="State">State Of Origin:</label>
             <select id="State"
                 name="State">
@@ -97,7 +124,9 @@
                 <option value="Taraba">Taraba</option>
                 <option value="Yobe">Yobe</option>
                 <option value="Zamfara">Zamfara</option>
-            </select><br><br>
+            </select>
+    </div>
+            <br><br>
 
         <!-- Hobbies -->
 
@@ -117,23 +146,39 @@
         <label for="Others">Others</label>
             <input type="checkbox" 
                 name="checkbox" 
-                id="Others"><br><br>
+                id="Others">
+        <br><br>
 
         <!-- Date Of Birth -->
 
+    <div class="Birthdate">
         <label for="birthdate">Date Of Birth: </label>
             <input type="date"
                 id="birthdate"
                 name="birthdate"><br><br>
+    </div>
 
+    <!-- Comment -->
+
+    <div class="Comment">
         <label for="Comment">Comment:</label>
             <input type="text" style="height: 70px;" size="70"
             
                 placeholder="Enter a comment (Optional)"><br><br>
-        <input type="submit"
-            value="Submit">
-        <input type="reset"
-            value="Reset">
+    </div>
+
+    <div class="SubmitBtn">
+    <a href="Text Formatting(Assignment 3).html" target="_self">
+        <button type="submit"
+            value="Submit">Submit</button>
+    </a>
+    </div><br> nn
+
+    <div class="ResetBtn">
+        <button type="reset"
+            value="Reset"> Reset</button>
+    </div>
      </form>
+</div>
 </body>
 </html>
