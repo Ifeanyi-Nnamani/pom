@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../Images/Space\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-weight: bold;
+}
+
+.LightAKA {
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+.red{
+    color: red;
+}
+
+.orange{
+    color: orange;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: greenyellow;
+}
+
+.blue{
+    color: blue;
+}
+
+.indigo{
+    color: cyan;
+}
+
+.violet{
+    color: violet;
+}
